@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		32CCE20225C9CCF5008B423F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE20125C9CCF5008B423F /* AppDelegate.swift */; };
 		32CCE20425C9CCF5008B423F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE20325C9CCF5008B423F /* SceneDelegate.swift */; };
-		32CCE20625C9CCF5008B423F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE20525C9CCF5008B423F /* ViewController.swift */; };
 		32CCE20925C9CCF5008B423F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CCE20725C9CCF5008B423F /* Main.storyboard */; };
 		32CCE20C25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE20A25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld */; };
 		32CCE20E25C9CCF6008B423F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CCE20D25C9CCF6008B423F /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		32CCE1FE25C9CCF5008B423F /* note_SoftwareChasers_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = note_SoftwareChasers_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CCE20125C9CCF5008B423F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32CCE20325C9CCF5008B423F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32CCE20525C9CCF5008B423F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32CCE20825C9CCF5008B423F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32CCE20B25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = note_SoftwareChasers_iOS.xcdatamodel; sourceTree = "<group>"; };
 		32CCE20D25C9CCF6008B423F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				32CCE20125C9CCF5008B423F /* AppDelegate.swift */,
 				32CCE20325C9CCF5008B423F /* SceneDelegate.swift */,
-				32CCE20525C9CCF5008B423F /* ViewController.swift */,
 				32CCE20725C9CCF5008B423F /* Main.storyboard */,
 				32CCE20D25C9CCF6008B423F /* Assets.xcassets */,
 				32CCE20F25C9CCF6008B423F /* LaunchScreen.storyboard */,
@@ -141,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				32CCE20C25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld in Sources */,
-				32CCE20625C9CCF5008B423F /* ViewController.swift in Sources */,
 				32CCE20225C9CCF5008B423F /* AppDelegate.swift in Sources */,
 				32CCE20425C9CCF5008B423F /* SceneDelegate.swift in Sources */,
 			);
@@ -292,6 +288,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = note_SoftwareChasers_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = note_SoftwareChasers_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
