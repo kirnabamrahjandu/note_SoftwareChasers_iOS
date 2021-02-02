@@ -13,6 +13,7 @@
 		32CCE20C25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE20A25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld */; };
 		32CCE20E25C9CCF6008B423F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CCE20D25C9CCF6008B423F /* Assets.xcassets */; };
 		32CCE21125C9CCF6008B423F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CCE20F25C9CCF6008B423F /* LaunchScreen.storyboard */; };
+		32CCE25025C9F515008B423F /* NewNoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE24F25C9F515008B423F /* NewNoteVC.swift */; };
 		F24FF3BC25C9F0490041DBCE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24FF3BB25C9F0490041DBCE /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		32CCE20D25C9CCF6008B423F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32CCE21025C9CCF6008B423F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32CCE21225C9CCF6008B423F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CCE24F25C9F515008B423F /* NewNoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteVC.swift; sourceTree = "<group>"; };
 		F24FF3BB25C9F0490041DBCE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				32CCE21225C9CCF6008B423F /* Info.plist */,
 				32CCE20A25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld */,
 				F24FF3BB25C9F0490041DBCE /* HomeVC.swift */,
+				32CCE24F25C9F515008B423F /* NewNoteVC.swift */,
 			);
 			path = note_SoftwareChasers_iOS;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				32CCE20C25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld in Sources */,
 				F24FF3BC25C9F0490041DBCE /* HomeVC.swift in Sources */,
+				32CCE25025C9F515008B423F /* NewNoteVC.swift in Sources */,
 				32CCE20225C9CCF5008B423F /* AppDelegate.swift in Sources */,
 				32CCE20425C9CCF5008B423F /* SceneDelegate.swift in Sources */,
 			);
