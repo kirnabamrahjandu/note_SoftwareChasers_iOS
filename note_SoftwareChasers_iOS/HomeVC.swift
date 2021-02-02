@@ -20,6 +20,17 @@ class HomeVC: UIViewController {
 
         setupUI()
     }
+    override func viewWillAppear(_ animated: Bool) {
+        menuMainViewLeading.constant = -menuMainView.frame.width
+        menuMainViewTrailing.constant = menuMainView.frame.width
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        self.menuMainView.isHidden = true
+        //NotificationCenter.default.removeObserver(self, name: Notification.Name(Constants.send_subject), object: nil)
+    
+    
+    
+    }
     func setupUI(){
         menuMainViewLeading.constant = -menuMainView.frame.width
         menuMainViewTrailing.constant = menuMainView.frame.width
@@ -29,16 +40,5 @@ class HomeVC: UIViewController {
         
     }
  
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+
