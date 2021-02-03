@@ -23,6 +23,7 @@
 		D3CF6D8125CA9A4F0006A59B /* SimpleNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CF6D8025CA9A4F0006A59B /* SimpleNoteCell.swift */; };
 		F24FF3BC25C9F0490041DBCE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24FF3BB25C9F0490041DBCE /* HomeVC.swift */; };
 		F28468AA25CAABA800C4F7EC /* CustomPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28468A925CAABA800C4F7EC /* CustomPopUpVC.swift */; };
+		F28468B125CABA4300C4F7EC /* MoreInfoTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28468B025CABA4300C4F7EC /* MoreInfoTC.swift */; };
 		F2F6046F25CA6ACA0055DECE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6046E25CA6ACA0055DECE /* Note.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		D3CF6D8025CA9A4F0006A59B /* SimpleNoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNoteCell.swift; sourceTree = "<group>"; };
 		F24FF3BB25C9F0490041DBCE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F28468A925CAABA800C4F7EC /* CustomPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpVC.swift; sourceTree = "<group>"; };
+		F28468B025CABA4300C4F7EC /* MoreInfoTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoTC.swift; sourceTree = "<group>"; };
 		F2F6046E25CA6ACA0055DECE /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 				D3CF6D8025CA9A4F0006A59B /* SimpleNoteCell.swift */,
 				3243D6DD25CA9FAA0072E57E /* ImageNoteCell.swift */,
 				F28468A925CAABA800C4F7EC /* CustomPopUpVC.swift */,
+				F28468B025CABA4300C4F7EC /* MoreInfoTC.swift */,
 			);
 			path = note_SoftwareChasers_iOS;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				32CCE20C25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld in Sources */,
 				B64EDFB725CA82EE0088653D /* SubjectTC.swift in Sources */,
 				D3CF6D7725CA88BA0006A59B /* Constant.swift in Sources */,
+				F28468B125CABA4300C4F7EC /* MoreInfoTC.swift in Sources */,
 				F24FF3BC25C9F0490041DBCE /* HomeVC.swift in Sources */,
 				3243D6C525CA74020072E57E /* Helper.swift in Sources */,
 				32CCE20225C9CCF5008B423F /* AppDelegate.swift in Sources */,

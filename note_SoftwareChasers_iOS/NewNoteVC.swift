@@ -20,7 +20,7 @@ class NewNoteVC: UIViewController, UIImagePickerControllerDelegate & UINavigatio
     @IBOutlet weak var imgAttachmentView: UIImageView!
     
     var note : Note?
-
+    var comingFromHome = false
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -83,4 +83,7 @@ extension NewNoteVC{
 
     }
     
+}
+class MenuTVC: UITableViewCell {
+    @IBOutlet weak var lblSubject : UILabel!
 }
