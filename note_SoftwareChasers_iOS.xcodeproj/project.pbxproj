@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3243D6C525CA74020072E57E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243D6C425CA74020072E57E /* Helper.swift */; };
 		32CCE20225C9CCF5008B423F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE20125C9CCF5008B423F /* AppDelegate.swift */; };
 		32CCE20425C9CCF5008B423F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE20325C9CCF5008B423F /* SceneDelegate.swift */; };
 		32CCE20925C9CCF5008B423F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CCE20725C9CCF5008B423F /* Main.storyboard */; };
 		32CCE20C25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE20A25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld */; };
 		32CCE20E25C9CCF6008B423F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CCE20D25C9CCF6008B423F /* Assets.xcassets */; };
 		32CCE21125C9CCF6008B423F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CCE20F25C9CCF6008B423F /* LaunchScreen.storyboard */; };
-		32CCE25025C9F515008B423F /* NewNoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE24F25C9F515008B423F /* NewNoteVC.swift */; };
 		F24FF3BC25C9F0490041DBCE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24FF3BB25C9F0490041DBCE /* HomeVC.swift */; };
 		F2F6046F25CA6ACA0055DECE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6046E25CA6ACA0055DECE /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3243D6C425CA74020072E57E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		32CCE1FE25C9CCF5008B423F /* note_SoftwareChasers_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = note_SoftwareChasers_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CCE20125C9CCF5008B423F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32CCE20325C9CCF5008B423F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		32CCE20D25C9CCF6008B423F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32CCE21025C9CCF6008B423F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32CCE21225C9CCF6008B423F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32CCE24F25C9F515008B423F /* NewNoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteVC.swift; sourceTree = "<group>"; };
 		F24FF3BB25C9F0490041DBCE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F2F6046E25CA6ACA0055DECE /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +71,7 @@
 				32CCE21225C9CCF6008B423F /* Info.plist */,
 				32CCE20A25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld */,
 				F24FF3BB25C9F0490041DBCE /* HomeVC.swift */,
-				32CCE24F25C9F515008B423F /* NewNoteVC.swift */,
+				3243D6C425CA74020072E57E /* Helper.swift */,
 			);
 			path = note_SoftwareChasers_iOS;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			files = (
 				32CCE20C25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld in Sources */,
 				F24FF3BC25C9F0490041DBCE /* HomeVC.swift in Sources */,
-				32CCE25025C9F515008B423F /* NewNoteVC.swift in Sources */,
+				3243D6C525CA74020072E57E /* Helper.swift in Sources */,
 				32CCE20225C9CCF5008B423F /* AppDelegate.swift in Sources */,
 				32CCE20425C9CCF5008B423F /* SceneDelegate.swift in Sources */,
 				F2F6046F25CA6ACA0055DECE /* Note.swift in Sources */,
