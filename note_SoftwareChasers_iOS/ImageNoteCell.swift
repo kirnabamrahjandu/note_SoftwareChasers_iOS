@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import CoreData
 class ImageNoteCell: UITableViewCell {
     @IBOutlet weak var lblTitle : UILabel!
      @IBOutlet weak var lblDate : UILabel!
