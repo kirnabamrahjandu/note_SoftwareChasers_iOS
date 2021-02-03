@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3243D6C525CA74020072E57E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243D6C425CA74020072E57E /* Helper.swift */; };
+		3243D6D125CA8DD90072E57E /* MoreInfoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243D6D025CA8DD90072E57E /* MoreInfoTVC.swift */; };
 		32CCE20225C9CCF5008B423F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE20125C9CCF5008B423F /* AppDelegate.swift */; };
 		32CCE20425C9CCF5008B423F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE20325C9CCF5008B423F /* SceneDelegate.swift */; };
 		32CCE20925C9CCF5008B423F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CCE20725C9CCF5008B423F /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		3243D6C425CA74020072E57E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3243D6D025CA8DD90072E57E /* MoreInfoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoTVC.swift; sourceTree = "<group>"; };
 		32CCE1FE25C9CCF5008B423F /* note_SoftwareChasers_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = note_SoftwareChasers_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CCE20125C9CCF5008B423F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32CCE20325C9CCF5008B423F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				D3CF6D6A25CA7B580006A59B /* DataAccess.swift */,
 				B64EDFB625CA82EE0088653D /* SubjectTC.swift */,
 				D3CF6D7625CA88BA0006A59B /* Constant.swift */,
+				3243D6D025CA8DD90072E57E /* MoreInfoTVC.swift */,
 			);
 			path = note_SoftwareChasers_iOS;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3243D6D125CA8DD90072E57E /* MoreInfoTVC.swift in Sources */,
 				32CCE20C25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld in Sources */,
 				B64EDFB725CA82EE0088653D /* SubjectTC.swift in Sources */,
 				D3CF6D7725CA88BA0006A59B /* Constant.swift in Sources */,
