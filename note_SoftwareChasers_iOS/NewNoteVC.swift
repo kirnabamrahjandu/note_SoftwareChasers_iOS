@@ -9,7 +9,7 @@ import UIKit
 import CoreData
 import CoreLocation
 
-class NewNoteVC: UIViewController {
+class NewNoteVC: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
     @IBOutlet weak var btnInfo: UIButton!
     
     @IBOutlet weak var btnImageClose: UIButton!
@@ -46,7 +46,41 @@ class NewNoteVC: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     
+//MARK:- IBActions and Custom Functions
+extension NewNoteVC{
+    @IBAction func handleInsertImage(_ sender: Any){
+        let actionSheet = UIAlertController(title: nil, message: nil, preferredStyle: UIAlertController.Style.actionSheet)
+
+        actionSheet.addAction(UIAlertAction(title: "Camera", style: UIAlertAction.Style.default, handler: { (alert:UIAlertAction!) -> Void in
+            self.camera()
+        }))
+
+        actionSheet.addAction(UIAlertAction(title: "Gallery", style: UIAlertAction.Style.default, handler: { (alert:UIAlertAction!) -> Void in
+            self.photoLibrary()
+        }))
+
+        actionSheet.addAction(UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil))
+
+        self.present(actionSheet, animated: true, completion: nil)
+
+    }
+    func camera()
+    {
+        let imagePicker = UIImagePickerController()
+        imagePicker.delegate = self
+        imagePicker.sourceType = .camera
+        self.present(imagePicker, animated: true)
+
+    }
+
+    func photoLibrary()
+    {
+        let imagePicker = UIImagePickerController()
+        imagePicker.sourceType = .photoLibrary
+        imagePicker.delegate = self
+        imagePicker.allowsEditing = true
+        self.present(imagePicker, animated: true)
+
+    }
     
-
-
-
+}
