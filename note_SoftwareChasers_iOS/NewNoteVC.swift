@@ -32,12 +32,6 @@ class NewNoteVC: UIViewController, UIImagePickerControllerDelegate & UINavigatio
  imgAttachmentView.image = nil
 }
 
-@IBAction func handleInfo(_ sender: Any) {
- let vc = self.storyboard?.instantiateViewController(identifier: "MoreInfoTC") as! MoreInfoTC
- vc.note = note!
- vc.subject = lblSubjectName.text
- self.present(vc, animated: true, completion: nil)
-}
 }
  // MARK: - Navigation
 
