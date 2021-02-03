@@ -2,25 +2,23 @@
 //  MoreInfoTVC.swift
 //  note_SoftwareChasers_iOS
 //
-//  Created by user191875 on 2/2/21.
+//  Created by user191875 on 2/3/21.
 //
 
 import UIKit
 
-class MoreInfoTVC: UITableViewController {
+class MoreInfoTVC: UITableViewCell {
     @IBOutlet weak var lblTitle : UILabel!
     @IBOutlet weak var lblSub : UILabel!
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        // Configure the view for the selected state
     }
 
 }
-    
-
-    

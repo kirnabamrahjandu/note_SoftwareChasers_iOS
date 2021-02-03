@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323AB46925CAD77B009B1BAD /* MoreInfoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323AB46825CAD77B009B1BAD /* MoreInfoTVC.swift */; };
 		3243D6C525CA74020072E57E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243D6C425CA74020072E57E /* Helper.swift */; };
-		3243D6D125CA8DD90072E57E /* MoreInfoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243D6D025CA8DD90072E57E /* MoreInfoTVC.swift */; };
 		3243D6DE25CA9FAA0072E57E /* ImageNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243D6DD25CA9FAA0072E57E /* ImageNoteCell.swift */; };
 		32CCE20225C9CCF5008B423F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE20125C9CCF5008B423F /* AppDelegate.swift */; };
 		32CCE20425C9CCF5008B423F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE20325C9CCF5008B423F /* SceneDelegate.swift */; };
@@ -28,8 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		323AB46825CAD77B009B1BAD /* MoreInfoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoTVC.swift; sourceTree = "<group>"; };
 		3243D6C425CA74020072E57E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		3243D6D025CA8DD90072E57E /* MoreInfoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoTVC.swift; sourceTree = "<group>"; };
 		3243D6DD25CA9FAA0072E57E /* ImageNoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNoteCell.swift; sourceTree = "<group>"; };
 		32CCE1FE25C9CCF5008B423F /* note_SoftwareChasers_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = note_SoftwareChasers_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CCE20125C9CCF5008B423F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,12 +93,12 @@
 				D3CF6D6A25CA7B580006A59B /* DataAccess.swift */,
 				B64EDFB625CA82EE0088653D /* SubjectTC.swift */,
 				D3CF6D7625CA88BA0006A59B /* Constant.swift */,
-				3243D6D025CA8DD90072E57E /* MoreInfoTVC.swift */,
 				B665EC4925CA98750030E62A /* NewNoteVC.swift */,
 				D3CF6D8025CA9A4F0006A59B /* SimpleNoteCell.swift */,
 				3243D6DD25CA9FAA0072E57E /* ImageNoteCell.swift */,
 				F28468A925CAABA800C4F7EC /* CustomPopUpVC.swift */,
 				F28468B025CABA4300C4F7EC /* MoreInfoTC.swift */,
+				323AB46825CAD77B009B1BAD /* MoreInfoTVC.swift */,
 			);
 			path = note_SoftwareChasers_iOS;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3243D6D125CA8DD90072E57E /* MoreInfoTVC.swift in Sources */,
+				323AB46925CAD77B009B1BAD /* MoreInfoTVC.swift in Sources */,
 				32CCE20C25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld in Sources */,
 				B64EDFB725CA82EE0088653D /* SubjectTC.swift in Sources */,
 				D3CF6D7725CA88BA0006A59B /* Constant.swift in Sources */,
