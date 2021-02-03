@@ -530,7 +530,7 @@
         <!--More InfoTC-->
         <scene sceneID="3y1-Cx-MYu">
             <objects>
-                <tableViewController storyboardIdentifier="MoreInfoTC" id="E97-Pc-uhU" customClass="MoreInfoTC" customModule="QuickNotes" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MoreInfoTC" id="E97-Pc-uhU" customClass="MoreInfoTC" customModule="note_SoftwareChasers_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="YkZ-7p-Qzc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -710,7 +710,7 @@
         <!--Subjects-->
         <scene sceneID="Gwt-r1-Aan">
             <objects>
-                <tableViewController storyboardIdentifier="SubjectTC" title="Subjects" id="GOL-PQ-fxY" customClass="SubjectTC" customModule="QuickNotes" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SubjectTC" title="Subjects" id="GOL-PQ-fxY" customClass="SubjectTC" customModule="note_SoftwareChasers_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Wdy-uP-MV9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -754,7 +754,7 @@
         <!--Custom Pop UpVC-->
         <scene sceneID="q1f-19-hJI">
             <objects>
-                <viewController storyboardIdentifier="CustomPopUpVC" modalPresentationStyle="overCurrentContext" id="r9w-oL-iWO" customClass="CustomPopUpVC" customModule="QuickNotes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CustomPopUpVC" modalPresentationStyle="overCurrentContext" id="r9w-oL-iWO" customClass="CustomPopUpVC" customModule="note_SoftwareChasers_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tYF-A7-N9Z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
