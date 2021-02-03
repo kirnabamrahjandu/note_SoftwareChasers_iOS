@@ -27,26 +27,26 @@ class NewNoteVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func handleDelete(_ sender: Any) {
-        imgHeight.constant = 20
-        btnImageClose.isHidden = true
-        imgAttachmentView.image = nil
-    }
-    
-    @IBAction func handleInfo(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(identifier: "MoreInfoTC") as! MoreInfoTC
-        vc.note = note!
-        vc.subject = lblSubjectName.text
-        self.present(vc, animated: true, completion: nil)
-    }
+ imgHeight.constant = 20
+ btnImageClose.isHidden = true
+ imgAttachmentView.image = nil
 }
-    /*
-    // MARK: - Navigation
+
+@IBAction func handleInfo(_ sender: Any) {
+ let vc = self.storyboard?.instantiateViewController(identifier: "MoreInfoTC") as! MoreInfoTC
+ vc.note = note!
+ vc.subject = lblSubjectName.text
+ self.present(vc, animated: true, completion: nil)
+}
+}
+ // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+   // override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-    }
-    */
+    
+    
+
 
 
