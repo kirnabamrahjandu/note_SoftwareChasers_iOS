@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="llY-c4-hS9">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -322,8 +322,8 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dtf-wV-Gxp">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="line.horizontal.3" catalog="system" id="k4c-Xe-ice">
-                            <color key="tintColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="list.bullet.rectangle" catalog="system" id="k4c-Xe-ice">
+                            <color key="tintColor" systemColor="systemRedColor"/>
                             <connections>
                                 <action selector="handleShowMenu:" destination="YL5-bI-rUQ" id="ixg-xm-mqk"/>
                             </connections>
@@ -420,12 +420,14 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="htL-XI-Cin">
-                                        <rect key="frame" x="334" y="62" width="25" height="25"/>
+                                        <rect key="frame" x="339" y="63.5" width="20" height="22"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7U-Dz-RJN">
-                                                <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
                                                 <color key="tintColor" name="ThemeGreen"/>
-                                                <state key="normal" backgroundImage="info"/>
+                                                <state key="normal" image="location.fill" catalog="system">
+                                                    <color key="titleShadowColor" systemColor="systemRedColor"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="handleInfo:" destination="MTf-xa-bUy" eventType="touchUpInside" id="2Po-Za-Btr"/>
                                                 </connections>
@@ -501,12 +503,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="z1S-SS-ER1">
                         <rightBarButtonItems>
-                            <barButtonItem image="done" id="Yub-as-S8A">
+                            <barButtonItem title="Item" image="checkmark" catalog="system" id="Yub-as-S8A">
+                                <color key="tintColor" systemColor="systemRedColor"/>
                                 <connections>
                                     <action selector="handleSaveNote:" destination="MTf-xa-bUy" id="d7E-E7-NBA"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem title="Insert Image" image="addImage" id="ihF-CP-XoH">
+                            <barButtonItem title="Insert Image" image="plus" catalog="system" id="ihF-CP-XoH">
+                                <color key="tintColor" systemColor="systemPinkColor"/>
                                 <connections>
                                     <action selector="handleInsertImage:" destination="MTf-xa-bUy" id="lqB-O9-lQl"/>
                                 </connections>
@@ -891,11 +895,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="addImage" width="24" height="24"/>
+        <image name="checkmark" catalog="system" width="128" height="114"/>
         <image name="delete" width="32" height="32"/>
-        <image name="done" width="30" height="30"/>
-        <image name="info" width="25" height="25"/>
-        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="list.bullet.rectangle" catalog="system" width="128" height="93"/>
+        <image name="location.fill" catalog="system" width="128" height="121"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <image name="plus.rectangle.fill" catalog="system" width="128" height="93"/>
         <image name="sort" width="25" height="25"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
@@ -917,8 +921,8 @@
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="tertiarySystemGroupedBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="viewFlipsideBackgroundColor">
             <color red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
