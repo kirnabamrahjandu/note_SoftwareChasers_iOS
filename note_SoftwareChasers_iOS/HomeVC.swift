@@ -15,7 +15,8 @@ class HomeVC: UIViewController {
     @IBOutlet weak var tableView : UITableView!
     @IBOutlet weak var topViewHeight: NSLayoutConstraint!
     @IBOutlet weak var searchBar : UISearchBar!
-    override func viewDidLoad() {
+    var arrNotes = [Note]()
+           override func viewDidLoad() {
         super.viewDidLoad()
 
         setupUI()
@@ -39,6 +40,24 @@ class HomeVC: UIViewController {
         self.navigationItem.title = "Notes"
         
     }
- 
+    func sortingByUserPreference(){
+        if let _ = UserDefaults.standard.value(forKey: "SortBy"){
+            let key = UserDefaults.standard.integer(forKey: "SortBy")
+            switch key {
+            case 0:
+                arrNotes = arrNotes.sorted(by: { $0.note_title! < $1.note_title!})
+            case 1:
+                arrNotes = arrNotes.sorted(by: { $0.note_title! > $1.note_title!})
+            case 2:
+                arrNotes = arrNotes.sorted(by: { $0.date_created!.timeIntervalSince1970 > $1.date_created!.timeIntervalSince1970 })
+            default:
+                print("Weird")
+            }
+        }
+        else{
+            arrNotes = arrNotes.sorted(by: { $0.date_created!.timeIntervalSince1970 > $1.date_created!.timeIntervalSince1970 })
+        }
+        tableView.reloadData()
+    }
 }
 

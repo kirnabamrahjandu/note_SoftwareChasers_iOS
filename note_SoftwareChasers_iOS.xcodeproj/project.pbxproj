@@ -15,6 +15,7 @@
 		32CCE21125C9CCF6008B423F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CCE20F25C9CCF6008B423F /* LaunchScreen.storyboard */; };
 		32CCE25025C9F515008B423F /* NewNoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CCE24F25C9F515008B423F /* NewNoteVC.swift */; };
 		F24FF3BC25C9F0490041DBCE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24FF3BB25C9F0490041DBCE /* HomeVC.swift */; };
+		F2F6046F25CA6ACA0055DECE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6046E25CA6ACA0055DECE /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		32CCE21225C9CCF6008B423F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32CCE24F25C9F515008B423F /* NewNoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteVC.swift; sourceTree = "<group>"; };
 		F24FF3BB25C9F0490041DBCE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F2F6046E25CA6ACA0055DECE /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		32CCE1F525C9CCF5008B423F = {
 			isa = PBXGroup;
 			children = (
+				F2F6046E25CA6ACA0055DECE /* Note.swift */,
 				32CCE20025C9CCF5008B423F /* note_SoftwareChasers_iOS */,
 				32CCE1FF25C9CCF5008B423F /* Products */,
 			);
@@ -148,6 +151,7 @@
 				32CCE25025C9F515008B423F /* NewNoteVC.swift in Sources */,
 				32CCE20225C9CCF5008B423F /* AppDelegate.swift in Sources */,
 				32CCE20425C9CCF5008B423F /* SceneDelegate.swift in Sources */,
+				F2F6046F25CA6ACA0055DECE /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
