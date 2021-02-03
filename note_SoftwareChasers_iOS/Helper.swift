@@ -19,3 +19,6 @@ class Helper {
         return dateFormatter.string(from: date)
     }
 }
+extension UIColor{
+    static let ThemeGreen = UIColor(red: 148/255, green: 23/255, blue: 81/255, alpha: 1)
+}
