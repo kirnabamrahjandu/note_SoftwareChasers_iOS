@@ -16,4 +16,20 @@ class SimpleNoteCell: UITableViewCell {
         super.awakeFromNib()
        
     }
+
+
+override func setSelected(_ selected: Bool, animated: Bool) {
+    super.setSelected(selected, animated: animated)
+
+    // Configure the view for the selected state
 }
+func setupCell(with data:Note){
+    lblTitle.text = data.note_title
+    lblDesc.text = data.note_desc
+    if let date = data.date_created{
+        lblDate.text = helper.getDateString(from: date, with: "MMM d, yyyy", calender: true)
+    }
+}
+}
+
+
