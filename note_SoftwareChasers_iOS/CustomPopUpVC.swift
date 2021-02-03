@@ -28,6 +28,22 @@ class CustomPopUpVC: UIViewController {
     var subjectDelegate : subjectDelegate?
     override func viewDidLoad() {
         super.viewDidLoad()
+        let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.dark)
+        let blurEffectView = UIVisualEffectView(effect: blurEffect)
+        blurEffectView.frame = view.bounds
+        blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        view.addSubview(blurEffectView)
+        mainView.layer.cornerRadius = 10
+        mainView.clipsToBounds = true
+        mainViewY.constant = self.view.frame.height
+        self.view.bringSubviewToFront(mainView)
+        lblTitle.text = popupTitle
+        
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        mainViewY.constant = 0
+            self.view.layoutIfNeeded()
+        
     }
     @IBAction func handleSubmit(_ sender: Any) {
         subjectDelegate?.selectedSubject(name: seletedSubject)
@@ -47,6 +63,7 @@ class CustomPopUpVC: UIViewController {
         }
         
     }
+   
     
 extension CustomPopUpVC : UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
