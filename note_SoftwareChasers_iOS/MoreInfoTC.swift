@@ -9,6 +9,9 @@ import UIKit
 import MapKit
 
 class MoreInfoTC: UITableViewController {
+    var note : Note!
+    let helper = Helper()
+    var subject : String!
     @IBOutlet weak var lblSubject: UILabel!
     @IBOutlet weak var lblDateModifed: UILabel!
     @IBOutlet weak var lblDateCreated: UILabel!
