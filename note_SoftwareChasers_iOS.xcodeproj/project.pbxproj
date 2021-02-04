@@ -82,6 +82,7 @@
 		32CCE20025C9CCF5008B423F /* note_SoftwareChasers_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F2A0AD5A25CC1FD60028115F /* List */,
 				B6AE7A2425CC1B440091AA96 /* story board */,
 				B6AE7A2325CC1AD90091AA96 /* Recorder */,
 				B6AE7A2225CC19640091AA96 /* Controller */,
@@ -90,8 +91,6 @@
 				32CCE20125C9CCF5008B423F /* AppDelegate.swift */,
 				32CCE20325C9CCF5008B423F /* SceneDelegate.swift */,
 				32CCE20D25C9CCF6008B423F /* Assets.xcassets */,
-				32CCE21225C9CCF6008B423F /* Info.plist */,
-				32CCE20A25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld */,
 			);
 			path = note_SoftwareChasers_iOS;
 			sourceTree = "<group>";
@@ -144,6 +143,15 @@
 				32CCE20725C9CCF5008B423F /* Main.storyboard */,
 			);
 			path = "story board";
+			sourceTree = "<group>";
+		};
+		F2A0AD5A25CC1FD60028115F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				32CCE21225C9CCF6008B423F /* Info.plist */,
+				32CCE20A25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
