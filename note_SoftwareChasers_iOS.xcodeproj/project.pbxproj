@@ -82,6 +82,7 @@
 		32CCE20025C9CCF5008B423F /* note_SoftwareChasers_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				B6AE7A2225CC19640091AA96 /* Controller */,
 				B6AE7A2125CC18690091AA96 /* Helper */,
 				B6AE7A2025CC16B70091AA96 /* Model */,
 				32CCE20125C9CCF5008B423F /* AppDelegate.swift */,
@@ -91,14 +92,6 @@
 				32CCE20F25C9CCF6008B423F /* LaunchScreen.storyboard */,
 				32CCE21225C9CCF6008B423F /* Info.plist */,
 				32CCE20A25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld */,
-				F24FF3BB25C9F0490041DBCE /* HomeVC.swift */,
-				B64EDFB625CA82EE0088653D /* SubjectTC.swift */,
-				B665EC4925CA98750030E62A /* NewNoteVC.swift */,
-				D3CF6D8025CA9A4F0006A59B /* SimpleNoteCell.swift */,
-				3243D6DD25CA9FAA0072E57E /* ImageNoteCell.swift */,
-				F28468A925CAABA800C4F7EC /* CustomPopUpVC.swift */,
-				F28468B025CABA4300C4F7EC /* MoreInfoTC.swift */,
-				323AB46825CAD77B009B1BAD /* MoreInfoTVC.swift */,
 				32BD9B5025CC0F5200907BA5 /* RecordVC.swift */,
 			);
 			path = note_SoftwareChasers_iOS;
@@ -120,6 +113,21 @@
 				3243D6C425CA74020072E57E /* Helper.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		B6AE7A2225CC19640091AA96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				323AB46825CAD77B009B1BAD /* MoreInfoTVC.swift */,
+				F24FF3BB25C9F0490041DBCE /* HomeVC.swift */,
+				D3CF6D8025CA9A4F0006A59B /* SimpleNoteCell.swift */,
+				B665EC4925CA98750030E62A /* NewNoteVC.swift */,
+				B64EDFB625CA82EE0088653D /* SubjectTC.swift */,
+				F28468A925CAABA800C4F7EC /* CustomPopUpVC.swift */,
+				F28468B025CABA4300C4F7EC /* MoreInfoTC.swift */,
+				3243D6DD25CA9FAA0072E57E /* ImageNoteCell.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
