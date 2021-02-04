@@ -66,6 +66,15 @@ extension HomeVC{
         }
         tableView.reloadData()
     }
+    @IBAction func handleSortBy(){
+        let vc = storyboard?.instantiateViewController(withIdentifier: "CustomPopUpVC") as! CustomPopUpVC
+        vc.arrItems = arrSortTypes
+        vc.popupTitle = "Sort By"
+        vc.delegate = self
+        self.present(vc, animated: false)
+//        viewSortBy.center = self.view.center
+//        view.addSubview(viewSortBy)
+    }
     func setupUI(){
         menuMainViewLeading.constant = -menuMainView.frame.width
         menuMainViewTrailing.constant = menuMainView.frame.width

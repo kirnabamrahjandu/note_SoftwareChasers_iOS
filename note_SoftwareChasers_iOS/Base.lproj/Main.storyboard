@@ -328,18 +328,11 @@
                                 <action selector="handleShowMenu:" destination="YL5-bI-rUQ" id="ixg-xm-mqk"/>
                             </connections>
                         </barButtonItem>
-                        <rightBarButtonItems>
-                            <barButtonItem systemItem="search" id="DkT-sJ-H62">
-                                <connections>
-                                    <action selector="handleSearchBar" destination="YL5-bI-rUQ" id="GXq-PP-R5W"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem image="sort" id="7UN-ik-gcK">
-                                <connections>
-                                    <action selector="handleSortBy" destination="YL5-bI-rUQ" id="X7o-UD-MPP"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="DkT-sJ-H62">
+                            <connections>
+                                <action selector="handleSearchBar" destination="YL5-bI-rUQ" id="GXq-PP-R5W"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="menuMainView" destination="yFW-Xm-oec" id="aXj-nQ-I3t"/>
@@ -682,6 +675,9 @@
                                             <subviews>
                                                 <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="sW8-Uw-wie">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="41"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="E97-Pc-uhU" id="RTy-ft-QJh"/>
+                                                    </connections>
                                                 </mapView>
                                             </subviews>
                                             <constraints>
@@ -901,10 +897,9 @@
         <image name="location.fill" catalog="system" width="128" height="121"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <image name="plus.rectangle.fill" catalog="system" width="128" height="93"/>
-        <image name="sort" width="25" height="25"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="ThemeGreen">
-            <color red="0.79607843137254897" green="0.56862745098039214" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.58039215686274515" green="0.090196078431372548" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="groupTableViewBackgroundColor">
             <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
