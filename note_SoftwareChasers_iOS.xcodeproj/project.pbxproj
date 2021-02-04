@@ -66,7 +66,6 @@
 		32CCE1F525C9CCF5008B423F = {
 			isa = PBXGroup;
 			children = (
-				F2F6046E25CA6ACA0055DECE /* Note.swift */,
 				32CCE20025C9CCF5008B423F /* note_SoftwareChasers_iOS */,
 				32CCE1FF25C9CCF5008B423F /* Products */,
 			);
@@ -83,6 +82,7 @@
 		32CCE20025C9CCF5008B423F /* note_SoftwareChasers_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				B6AE7A2025CC16B70091AA96 /* Model */,
 				32CCE20125C9CCF5008B423F /* AppDelegate.swift */,
 				32CCE20325C9CCF5008B423F /* SceneDelegate.swift */,
 				32CCE20725C9CCF5008B423F /* Main.storyboard */,
@@ -104,6 +104,14 @@
 				32BD9B5025CC0F5200907BA5 /* RecordVC.swift */,
 			);
 			path = note_SoftwareChasers_iOS;
+			sourceTree = "<group>";
+		};
+		B6AE7A2025CC16B70091AA96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2F6046E25CA6ACA0055DECE /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
