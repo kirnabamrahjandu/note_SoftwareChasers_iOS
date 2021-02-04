@@ -7,16 +7,127 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8736A694-7AFA-4ED4-8A64-975904041AD4"
-            shouldBeEnabled = "Yes"
+            uuid = "DE2F885E-7662-46C9-8EC9-4D000B97A593"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "note_SoftwareChasers_iOS/NewNoteVC.swift"
+            filePath = "note_SoftwareChasers_iOS/RecordVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "192"
-            endingLineNumber = "192"
-            landmarkName = "locationManager(_:didUpdateLocations:)"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2E58C01-DF58-41E4-996F-CF4103B227C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "note_SoftwareChasers_iOS/RecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "recorderSettingUp()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B2E58C01-DF58-41E4-996F-CF4103B227C1 - 1a67eb1a8226727d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "note_SoftwareChasers_iOS.RecordVC.recorderSettingUp() -&gt; ()"
+                  moduleName = "note_SoftwareChasers_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user191875/Documents/note_SoftwareChasers_iOS/note_SoftwareChasers_iOS/RecordVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "B2E58C01-DF58-41E4-996F-CF4103B227C1 - 20818345806bd350"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in note_SoftwareChasers_iOS.RecordVC.recorderSettingUp() -&gt; ()"
+                  moduleName = "note_SoftwareChasers_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user191875/Documents/note_SoftwareChasers_iOS/note_SoftwareChasers_iOS/RecordVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "B2E58C01-DF58-41E4-996F-CF4103B227C1 - 79551f5eb9e4011"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Bool) -&gt; () in note_SoftwareChasers_iOS.RecordVC.recorderSettingUp() -&gt; ()"
+                  moduleName = "note_SoftwareChasers_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user191875/Documents/note_SoftwareChasers_iOS/note_SoftwareChasers_iOS/RecordVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB1EDA7E-0FC9-4017-A3B2-B3E7AD8F2011"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "note_SoftwareChasers_iOS/RecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "recorderSettingUp()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B19B0206-F106-4997-AE88-39B6B31073DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "note_SoftwareChasers_iOS/RecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "loadRecordingUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C9C8CFB-8D8E-4438-AFBA-03F6FA44786A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "note_SoftwareChasers_iOS/RecordVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "handlePlay(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

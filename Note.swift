@@ -4,8 +4,7 @@
 //
 //  Created by user190379 on 2/3/21.
 //
-
-import UIKit
+import  UIKit
 
 class Note: NSObject {
     var note_id : String?
@@ -17,6 +16,7 @@ class Note: NSObject {
     var long : Double?
     var picture : Data?
     var subject_id :String?
+    var record : String?
 }
 class Subjects: NSObject {
     var subject_id :String?

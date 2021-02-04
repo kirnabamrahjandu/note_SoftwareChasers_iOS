@@ -413,16 +413,23 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="htL-XI-Cin">
-                                        <rect key="frame" x="339" y="63.5" width="20" height="22"/>
+                                        <rect key="frame" x="241" y="59.5" width="118" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7U-Dz-RJN">
-                                                <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="49" height="30"/>
                                                 <color key="tintColor" name="ThemeGreen"/>
                                                 <state key="normal" image="location.fill" catalog="system">
                                                     <color key="titleShadowColor" systemColor="systemRedColor"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="handleInfo:" destination="MTf-xa-bUy" eventType="touchUpInside" id="2Po-Za-Btr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BY0-6e-oTc">
+                                                <rect key="frame" x="69" y="0.0" width="49" height="30"/>
+                                                <state key="normal" title="Record"/>
+                                                <connections>
+                                                    <segue destination="UGW-GN-gD8" kind="show" identifier="record" id="Qzd-H4-gAw"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -889,6 +896,98 @@
             </objects>
             <point key="canvasLocation" x="2529" y="-641"/>
         </scene>
+        <!--RecordVC-->
+        <scene sceneID="Dxh-Fx-Et5">
+            <objects>
+                <viewController id="UGW-GN-gD8" customClass="RecordVC" customModule="note_SoftwareChasers_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MOS-Yw-Soh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="oYf-6c-W0v">
+                                <rect key="frame" x="50" y="390" width="314" height="170"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOB-xr-V1I">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="50"/>
+                                        <color key="backgroundColor" name="ThemeGreen"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="0In-Pl-anN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="0.9836322623" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27Z-sz-202">
+                                        <rect key="frame" x="0.0" y="60" width="314" height="50"/>
+                                        <color key="backgroundColor" name="ThemeGreen"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Uf8-ee-yQr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Play">
+                                            <color key="titleColor" white="1" alpha="0.9836322623" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handlePlay:" destination="UGW-GN-gD8" eventType="touchUpInside" id="PGJ-c1-ZwL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVy-fw-FUk">
+                                        <rect key="frame" x="0.0" y="120" width="314" height="50"/>
+                                        <color key="backgroundColor" name="ThemeGreen"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="17f-SM-zju"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Stop">
+                                            <color key="titleColor" white="1" alpha="0.9836322623" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="Handlestop:" destination="UGW-GN-gD8" eventType="touchUpInside" id="Qyf-HI-eBP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5ae-yT-b5i"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oYf-6c-W0v" firstAttribute="centerY" secondItem="5ae-yT-b5i" secondAttribute="centerY" id="JuR-sj-whX"/>
+                            <constraint firstItem="oYf-6c-W0v" firstAttribute="centerX" secondItem="5ae-yT-b5i" secondAttribute="centerX" id="LyM-5g-XA2"/>
+                            <constraint firstItem="oYf-6c-W0v" firstAttribute="leading" secondItem="5ae-yT-b5i" secondAttribute="leading" constant="50" id="UkB-Gu-BUp"/>
+                            <constraint firstItem="5ae-yT-b5i" firstAttribute="trailing" secondItem="oYf-6c-W0v" secondAttribute="trailing" constant="50" id="c6Y-Lx-VhL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OFV-CJ-F81">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="3oE-8z-SrC">
+                            <connections>
+                                <action selector="handleSave:" destination="UGW-GN-gD8" id="h3o-BU-G7h"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="recordButton" destination="hOB-xr-V1I" id="V0q-eW-n2U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qAc-ma-Nye" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1570" y="844"/>
+        </scene>
     </scenes>
     <resources>
         <image name="checkmark" catalog="system" width="128" height="114"/>
@@ -899,7 +998,7 @@
         <image name="plus.rectangle.fill" catalog="system" width="128" height="93"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="ThemeGreen">
-            <color red="0.58039215686274515" green="0.090196078431372548" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.57999998331069946" green="0.090000003576278687" blue="0.31799998879432678" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="groupTableViewBackgroundColor">
             <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -18,7 +18,7 @@ class NewNoteVC: UIViewController {
     @IBOutlet weak var txtTitle: UITextField!
     @IBOutlet weak var txtDescription: UITextView!
     @IBOutlet weak var imgAttachmentView: UIImageView!
-    
+    var audioString : String?
     var locationManager = CLLocationManager()
     var comingFromHome = false
     let dataAccesss = DataAccess()
@@ -52,7 +52,22 @@ class NewNoteVC: UIViewController {
         vc.subject = lblSubjectName.text
         self.present(vc, animated: true, completion: nil)
     }
+    func audioRecordingSet(file:String){
+        audioString = file
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "record"{
+            let vc = segue.destination as! RecordVC
+            vc.newNoteVc = self
+            if audioString != nil {
+                print(audioString)
+                vc.audioFilename = URL(string: audioString!)
+            }
+            
+        }
+    }
 }
+
     
 //MARK:- IBActions and Custom Functions
 extension NewNoteVC{
@@ -119,7 +134,8 @@ extension NewNoteVC{
                                     Constants.date_modified:Date(),
                                     Constants.subject_id : subject_id,
                                     Constants.lat: lat,
-                                    Constants.long: long] as [String : Any]
+                                    Constants.long: long,
+                                    "record":audioString ?? ""] as [String : Any]
                        
                    if imageData != nil{
                        dicToSave.updateValue(imageData!, forKey: Constants.picture)
@@ -178,6 +194,7 @@ func saveNewNote(with dicToSave: [String:Any]){
         lblSubjectName.text = subject.subject_name
         txtTitle.text  = existingNote.note_title
         txtDescription.text = existingNote.note_desc
+        audioString = existingNote.record
         
         if existingNote.picture != nil {
             imgHeight.constant = 200
