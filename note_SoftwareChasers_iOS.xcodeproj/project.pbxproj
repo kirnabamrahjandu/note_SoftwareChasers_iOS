@@ -82,17 +82,16 @@
 		32CCE20025C9CCF5008B423F /* note_SoftwareChasers_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				B6AE7A2425CC1B440091AA96 /* story board */,
+				B6AE7A2325CC1AD90091AA96 /* Recorder */,
 				B6AE7A2225CC19640091AA96 /* Controller */,
 				B6AE7A2125CC18690091AA96 /* Helper */,
 				B6AE7A2025CC16B70091AA96 /* Model */,
 				32CCE20125C9CCF5008B423F /* AppDelegate.swift */,
 				32CCE20325C9CCF5008B423F /* SceneDelegate.swift */,
-				32CCE20725C9CCF5008B423F /* Main.storyboard */,
 				32CCE20D25C9CCF6008B423F /* Assets.xcassets */,
-				32CCE20F25C9CCF6008B423F /* LaunchScreen.storyboard */,
 				32CCE21225C9CCF6008B423F /* Info.plist */,
 				32CCE20A25C9CCF5008B423F /* note_SoftwareChasers_iOS.xcdatamodeld */,
-				32BD9B5025CC0F5200907BA5 /* RecordVC.swift */,
 			);
 			path = note_SoftwareChasers_iOS;
 			sourceTree = "<group>";
@@ -128,6 +127,23 @@
 				3243D6DD25CA9FAA0072E57E /* ImageNoteCell.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B6AE7A2325CC1AD90091AA96 /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				32BD9B5025CC0F5200907BA5 /* RecordVC.swift */,
+			);
+			path = Recorder;
+			sourceTree = "<group>";
+		};
+		B6AE7A2425CC1B440091AA96 /* story board */ = {
+			isa = PBXGroup;
+			children = (
+				32CCE20F25C9CCF6008B423F /* LaunchScreen.storyboard */,
+				32CCE20725C9CCF5008B423F /* Main.storyboard */,
+			);
+			path = "story board";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
