@@ -329,6 +329,7 @@
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="DkT-sJ-H62">
+                            <color key="tintColor" systemColor="systemRedColor"/>
                             <connections>
                                 <action selector="handleSearchBar" destination="YL5-bI-rUQ" id="GXq-PP-R5W"/>
                             </connections>
@@ -998,7 +999,7 @@
         <image name="plus.rectangle.fill" catalog="system" width="128" height="93"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="ThemeGreen">
-            <color red="0.57999998331069946" green="0.090000003576278687" blue="0.31799998879432678" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.18299999833106995" green="0.460999995470047" blue="0.097000002861022949" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="groupTableViewBackgroundColor">
             <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
